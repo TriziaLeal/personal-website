@@ -1,0 +1,10 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* Sets the min-width of the website to 420px, 
+  lower resolution devices will receive a zoomed out version of the website */
+  min-width: 360px;
+}
+
+body.fontLoaded {
+  font-family: 'LatoWeb', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
